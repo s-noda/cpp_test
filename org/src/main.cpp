@@ -1,5 +1,5 @@
 #include <iostream>
 
 int main(int argc, char** argv){
-  printf("hello world");
+  std::cout << "argc=" << argc << ", argv=" << argv << std::endl;
 }
